@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+}
+
+.templets{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clear{
+    overflow: hidden;
+}
+
+.headersection{
+    height: 85px;
+    background: #2D2D2D;
+}
+
+.headersection h2 {
+	color: white;
+	text-align: center;
+	padding-top: 27px;
+	font-size: 30px;
+}
+
+.navsection{
+    background: #9B999A;
+}
+
+.navsection ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navsection ul li{
+    display: block;
+    float: left;
+}
+
+.navsection ul li a{
+    background: rgb(207, 207, 207);
+    color: #444;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 8px;
+    padding: 5px 30px;
+}
+
+.navsection ul li a:hover{
+    background: #2D2D2D;
+    color: white;
+}
+
+.contentsection{}
+
+.maincontent{
+    width: 650px;
+    background: #DFDFDF;
+    float: left;
+    margin: 15px 15px 15px 0;
+    padding: 10px;
+}
+
+.maincontent p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.sidebar{
+    width: 255px;
+    background: #DFDFDF;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.samesidebar{
+
+}
+
+.samesidebar h2{
+    background: #9B999A;
+    padding: 10px;
+    color: white;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #2D2D2D;
+}
+
+.samesidebar p{
+    margin-bottom: 10px;
+}
+
+.footersection{
+    height: 90px;
+    background: #555555;
+}
+
+.footersection p{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
+}
