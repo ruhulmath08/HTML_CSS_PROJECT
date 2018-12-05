@@ -21,15 +21,43 @@ body{
 }
 
 .headersection{
-    height: 85px;
     background: #B7801C;
 }
 
-.headersection h2 {
-	color: white;
-	text-align: center;
-	padding-top: 27px;
-	font-size: 30px;
+.logo{
+    width: 430px;
+    float: left;
+}
+
+.logo img{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 70px;
+}
+
+.logo h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 11px;
+    margin-top: 24px;
+    text-shadow: 2px 2px 0 #666;
+}
+
+.logo p{
+    color: #fff;
+}
+
+.social{
+    width: 255px;
+    float: right;
+    padding-top: 16px;
+}
+
+.social img{
+    width: 60px;
 }
 
 .navsection{
